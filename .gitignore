@@ -1,0 +1,20 @@
+# App artifacts
+/_build
+/db
+/deps
+/*.ez
+/debug.log
+/cover
+/release
+
+# Generate on crash by the VM
+erl_crash.dump
+
+.DS_Store
+.vscode
+.idea/
+
+/config/releases.exs
+.elixir_ls
+
+node_modules

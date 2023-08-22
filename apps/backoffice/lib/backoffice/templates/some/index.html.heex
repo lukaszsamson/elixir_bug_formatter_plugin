@@ -1,0 +1,12 @@
+<h1>Index</h1>
+
+<h2>Choose operator</h2>
+<ul>
+  <%= for operator <- @operators do %>
+    <li>
+      <%= link(operator.name, to: Routes.some_long_path(@conn, :new_foo_bar_foo_barr_sth, operator.id)) %>
+    </li>
+  <% end %>
+</ul>
+
+<span><%= link("Back", to: Routes.some_path(@conn, :index)) %></span>
